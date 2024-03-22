@@ -1,32 +1,54 @@
 # Making my favorite Meal
 ![Pasta](Creamy-tomato-pasta-2-180x180.jpg)
 
-## Ingredients you will need
- Olive oil, onion, garlic, Italian seasoning, tomato paste, salt, pepper,
-  chicken broth, pasta, sun-dried tomatoes, canned diced tomatoes, 
-  cream cheese, parmesan cheese and optionally fresh parsley.
-
-## How to cook
-
-**Saute and add Sauce:**
-
-- Saute onion and garlic for 2 minutes
-- After 2 minutes stir in the tomato paste and italian seasoning
 
 
-**Add liquids and pasta:**
-- 3 cups of chicken broth into pan
-- add can of diced tomatoes and pasta 
-- simmer unti pasta is done (10-15min)
+## Ingredients needed
+- Olive oil
+- Onion
+- Garlic
+- Italian seasoning
+- Tomato paste
+- Salt
+- Pepper
+- Chicken broth
+- Pasta
+- Sun-dried tomatoes
+- Canned diced tomatoes
+- Cream cheese
+- Parmesan cheese
+- Fresh parsley (optional)
 
-**when pasta is cooked**
-- add grated parmesan
-- add cream cheese
-- let pasta sit for a few min to let it thicken further
-- serve hot
+## Cooking instructions
 
-## Recipe Tips
-- do not precook the pasta
-- put pasta in pan dry
-- **If** pasta is done but the sauce is soupy wait another 3-4 minutes
-- Serve with **Baguette** or **Garlic Bread**
+1. **Heat the pan**
+2. **Add olive oil to the heated pan**
+3. **Add onion and garlic to the pan**
+4. **Cook for 2 minutes**
+
+**Stir in tomato paste and Italian seasoning**
+- stirInTomatoPaste()
+- addItalianSeasoning()
+- continueCooking()
+
+**Add liquids and pasta**
+- addChickenBroth()
+- addDicedTomatoesAndPasta()
+
+Simmer until pasta is done
+- while pastaIsNotDone():
+        simmer()
+
+- if sauceIsSoupy():
+        waitAdditionalMinutes(3)
+        
+
+
+**When pasta is cooked, add grated parmesan and cream cheese**
+- addParmesan()
+- addCreamCheese()
+
+**Let pasta sit for a few minutes to thicken further**
+
+
+**Serve hot with Baguette or Garlic Bread**
