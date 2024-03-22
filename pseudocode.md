@@ -36,7 +36,7 @@
 - addDicedTomatoesAndPasta()
 
 Simmer until pasta is done
-- while pastaIsNotDone():
+- if pastaIsNotDone():
         simmer()
 
 - if sauceIsSoupy():
